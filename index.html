@@ -4,127 +4,142 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ДЗ goit-markup-hw-01 Скрипка Андрій</title>
+        <title>ДЗ goit-markup-hw-02 Скрипка Андрій</title>
         <meta lang='en' name="author" content="Andrii Srypka">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="./css/styles.css"/>
     </head>
   <body>
-    <header> 
+    <header class="header"> 
         <!-- Навигация (главная навигация в середине сайта)-->
-       <nav>
+       <nav class="header-nav">
             <!-- Логотип. Посилання на главную страницу -->
-            <a lang="en" href="/index.html">Web<span>Studio</span></a>
-        <ul>
-            <li>
-                <a href="#">Студия</a>
+            <a class="logo link" lang="en" href="./index.html">Web<span>Studio</span></a>
+        <ul class="menu list"> 
+            <li class="menu-item">
+                <a class="menu-link link" href="#">Студия</a>
             </li>
-            <li>
-                <a href="#">Портфолио</a>
+            <li class="menu-item">
+                <a class="menu-link link" href="#">Портфолио</a>
             </li>
-            <li>
-                <a href="#">Контакты</a>
+            <li class="menu-item">
+                <a class="menu-link link" href="#">Контакты</a>
             </li>
         </ul>
         </nav>
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-            <a href="tel:0961111111">+380 96 111 11 11</a>
-            </li>
-        </ul>
-    
+                <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header-phone link" href="tel:0961111111">+380 96 111 11 11</a>
 </header> 
 <main>
     <!-- Герой -->
-            <section>
-                <h1>Эффективные решения<br> для вашего бизнеса</h1>
-                <button type="button">Замовити послугу</button>
+            <section class="hero">
+                <h1 class="main-title">Эффективные решения <br> для вашего бизнеса</h1>
+                <button class="modal-btn" type="button">Заказать услугу</button>
             </section>
-        <section>
+        <section class="section-title">
              <!-- Дополнительный скрытый заголовок-->
-           <h2>Особености</h2>
-           <ul>
-               <li>
-                   <h3>Внимание к деталям</h3>
-                   <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+           <h2 class="section-title-list">Особености</h2>
+           <ul class="feature-list list">
+               <li class="feature-subheadings">
+                   <h3 class="feature-subheadings-list">Внимание к деталям</h3>
+                   <p class="descriptions">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                </li>
-               <li>
-                   <h3>Пунктуальность</h3>
-                   <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+               <li class="feature-subheadings">
+                   <h3 class="feature-subheadings-list">Пунктуальность</h3>
+                   <p class="descriptions">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-               <li>
-                   <h3>Планирование</h3>
-                   <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+               <li class="feature-subheadings">
+                   <h3 class="feature-subheadings-list">Планирование</h3>
+                   <p class="descriptions">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                </li>
-               <li>
-                   <h3>Современные технологии</h3>
-                   <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+               <li class="feature-subheadings">
+                   <h3 class="feature-subheadings-list">Современные технологии</h3>
+                   <p class="descriptions">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                </li>
            </ul>
         </section>
         <!-- Чем мы занимаемся -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
-            <li><img src="./images/what-we-do/what-we-do-squoosh/programmin.jpg" alt="процесс программирование" width="370" height="294">
-            </li>
-            <li><img src="./images/what-we-do/what-we-do-squoosh/developing-sirv-on-smartphone.jpg" alt=" процесс розработка сайтов" width="370" height="294">
-            </li>
-            <li><img src="./images/what-we-do/what-we-do-squoosh/photo-editing.jpg" alt="процесс обработкы фото" width="370" height="294">
-            </li>
+        <section class="section-title">
+            <h2 class="section-title-list">Чем мы занимаемся</h2>
+            <ul class="what-we-do list">
+                <li class="what-we-do-list">
+                    <img class="what-we-do-lis-foto" src="./images/what-we-do/what-we-do-squoosh/programmin.jpg" alt="процесс программирование" width="370" height="294">
+             </li>
+                <li class="what-we-do-list">
+                    <img class="what-we-do-lis-foto" src="./images/what-we-do/what-we-do-squoosh/developing-sirv-on-smartphone.jpg" alt=" процесс розработка сайтов" width="370" height="294">
+             </li>
+                <li class="what-we-do-list">
+                    <img class="what-we-do-lis-foto" src="./images/what-we-do/what-we-do-squoosh/photo-editing.jpg" alt="процесс обработкы фото" width="370" height="294">
+             </li>
             </ul>
-
         </section>
         <!-- Наша команда -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="./images/our-team/team-squoosh/Igor.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                    <div>
-                        <h3>Игорь Демьяненко</h3>
-                        <p lang="en">Product Designer</p>
+        <section class="section-title">
+            <h2 class="section-title-list">Наша команда</h2>
+            <ul class="employees-lis list">
+                <li class="employees-list-item">
+                    <img class="employees-list-img" 
+                        src="./images/our-team/team-squoosh/Igor.jpg" 
+                        alt="Игорь Демьяненко" 
+                        width="270" 
+                        height="260">
+                    <div class="div-list-item">
+                        <h3 class="employees-list-name">Игорь Демьяненко</h3>
+                        <p class="employees-list-position" lang="en">Product Designer</p>
                     </div>
                 </li>
-                <li>
-                    <img src="./images/our-team/team-squoosh/olga.jpg" alt="Ольга Репина" width="270" height="260">
-                    <div>
-                        <h3>Ольга Репина</h3>
-                        <p lang="en">Frontend Developer</p>
+                <li class="employees-list-item">
+                    <img class="employees-list-img" 
+                         src="./images/our-team/team-squoosh/olga.jpg" 
+                         alt="Ольга Репина" 
+                         width="270" 
+                         height="260">
+                    <div class="div-list-item">
+                        <h3 class="employees-list-name">Ольга Репина</h3>
+                        <p class="employees-list-position" lang="en">Frontend Developer</p>
                     </div>
                 </li>
-                <li>
-                    <img src="./images/our-team/team-squoosh/nikolai.jpg" alt="Николай Тарасов" width="270" height="260">
-                    <div>
-                        <h3>Николай Тарасов</h3>
-                        <p lang="en">Marketing</p>
+                <li class="employees-list-item">
+                    <img class="employees-list-img" 
+                         src="./images/our-team/team-squoosh/nikolai.jpg" 
+                         alt="Николай Тарасов" 
+                         width="270" 
+                         height="260">
+                    <div class="div-list-item">
+                        <h3 class="employees-list-name">Николай Тарасов</h3>
+                        <p class="employees-list-position" lang="en">Marketing</p>
                     </div>
                 </li>
-                <li>
-                    <img src="./images/our-team/team-squoosh/mihail.jpg" alt="Михаил Ермаков" width="270" height="260">
-                    <div>
-                        <h3>Михаил Ермаков</h3>
-                        <p lang="en">UI Designer</p>
+                <li class="employees-list-item">
+                    <img class="employees-list-img" 
+                         src="./images/our-team/team-squoosh/mihail.jpg" 
+                         alt="Михаил Ермаков" 
+                         width="270" 
+                         height="260">
+                    <div class="div-list-item">
+                        <h3 class="employees-list-name">Михаил Ермаков</h3>
+                        <p class="employees-list-position" lang="en">UI Designer</p>
                     </div>
 
                 </li>
             </ul>
         </section>
     </main>
-        <footer>
+        <footer class="footer">
             <!-- Лого. Ссылка на главною страницу -->
-            <a lang="en" href="/index.html">Web<span>Studio</span></a>
-            <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>   
-                <ul>
-                    <li>
-                        <a href="mailto:info@example.com">info@example.com</a>
+            <a class="logo link link" lang="en" href="/index.html">Web<span>Studio</span></a>
+            <address class="address">
+                <p class="contact-info">г. Киев, пр-т Леси Украинки, 26</p>   
+                <ul class="contact-info-list list">
+                    <li class="contact-info-list-item">
+                        <a class="contact-info-list-link link" href="mailto:info@example.com">info@example.com</a>
                     </li>
-                    <li>
-                        <a href="tel:0991111111">+38 099 111 11 11</a>
+                    <li class="contact-info-list-item">
+                        <a class="contact-info-list-link link" href="tel:0991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
             </address>
