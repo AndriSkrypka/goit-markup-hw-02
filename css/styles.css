@@ -14,8 +14,15 @@ body {
 .link {
   text-decoration: none;
 }
-
+.section-title-team {
+  background: #f5f4fa;
+}
 /* ================= COMPONENTS ================= */
+
+.employees-list-item {
+  background: #ffffff;
+}
+
 .section-title-list {
   font-weight: 700;
   font-size: 36px;
@@ -134,7 +141,9 @@ body {
 /* ================= /HEADER ================= */
 
 /* ================= HERO ================= */
-
+.hero {
+  background: #2f303a;
+}
 .main-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -147,8 +156,6 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
-
-  background: #2f303a;
 }
 
 .modal-btn {
