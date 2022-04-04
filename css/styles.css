@@ -52,11 +52,10 @@ body {
   color: #757575;
 }
 
-.employes-list-name {
+.employees-list-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -203,6 +202,9 @@ body {
 .header {
   border: 1px solid #ececec;
 }
+.section-title-list {
+  display: none;
+}
 /* ================= MAIN PORFOLIO/ ================= */
 
 /* ================= FOOTER ================= */
@@ -213,7 +215,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -236,7 +238,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
