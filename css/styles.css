@@ -188,6 +188,8 @@ img {
 
 .menu {
   display: flex;
+  align-items: center;
+  margin: auto;
 }
 .menu .menu-item {
   outline: 1px solid red;
@@ -224,6 +226,10 @@ img {
 .header-contect {
   display: flex;
   align-items: center;
+  margin: auto;
+}
+
+.header-contec .contect-list {
 }
 
 .header-mail {
