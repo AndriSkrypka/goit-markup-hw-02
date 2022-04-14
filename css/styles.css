@@ -63,6 +63,8 @@ img {
 }
 
 .employees-list-item {
+  width: 270px;
+  text-align: center;
   background: var(--one-color);
 }
 
@@ -76,6 +78,10 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
+}
+
+.feature-subheadings {
+  width: 270px;
 }
 
 .feature-subheadings-list {
@@ -98,6 +104,17 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color2);
+}
+
+.div-list-item {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background-color: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employees-list-name {
@@ -138,8 +155,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border: color #ececec;
-  outline: 1px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -242,21 +258,26 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
   background: #2f303a;
 }
 
+.what-we-do-list {
+  width: 370px;
+}
 .section-title-list-features {
   margin-bottom: 50px;
   display: none;
 }
 
 .main-title {
+  margin: 0 auto;
+  width: 696px;
   margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -265,16 +286,24 @@ img {
 }
 
 .modal-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
+  width: 100%;
+  max-width: 200px;
+  min-width: 50px;
+  padding: 9px 31px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   text-align: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 
   color: var(--one-color);
 }
