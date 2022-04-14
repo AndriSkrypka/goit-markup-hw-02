@@ -12,7 +12,25 @@ body {
   font-family: var(--main-font);
 }
 
+/* Reset css */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Налаштування адаптивних зображень */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 .link {
@@ -21,7 +39,25 @@ body {
 .section-title-team {
   background: var(--one-color);
 }
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 1px solid red;
+}
 /* ================= COMPONENTS ================= */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title {
+  padding-top: 0;
+}
+
 .section-title-team {
   background: var(--background-button-color);
 }
@@ -31,6 +67,8 @@ body {
 }
 
 .section-title-list {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -38,6 +76,10 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
+}
+
+.feature-subheadings-list {
+  margin-bottom: 10px;
 }
 
 .feature-subheadings-list {
@@ -59,6 +101,10 @@ body {
 }
 
 .employees-list-name {
+  margin-bottom: 10px;
+}
+
+.employees-list-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -68,6 +114,15 @@ body {
 }
 
 .employees-list-position {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color2);
+}
+/* Список в портфоліо під карточками */
+.employees-list-position-div {
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -80,6 +135,21 @@ body {
 /* ================= /COMPONENTS ================= */
 
 /* ================= HEADER ================= */
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: color #ececec;
+  outline: 1px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-nav {
+  align-items: center;
+  display: flex;
+}
 
 .logo {
   font-family: var(--secondary-font);
@@ -100,6 +170,24 @@ body {
   color: #000000;
 }
 
+.menu {
+  display: flex;
+}
+.menu .menu-item {
+  outline: 1px solid red;
+  margin-right: 50px;
+}
+
+.menu .menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-item .menu-link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
@@ -115,6 +203,11 @@ body {
 
 .menu-link.link.active {
   color: var(--accent-color);
+}
+
+.header-contect {
+  display: flex;
+  align-items: center;
 }
 
 .header-mail {
@@ -147,14 +240,19 @@ body {
 
 /* ================= HERO ================= */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: #2f303a;
 }
 
 .section-title-list-features {
+  margin-bottom: 50px;
   display: none;
 }
 
 .main-title {
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -219,6 +317,8 @@ body {
 }
 
 .employees-list-name-portfolio {
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -229,6 +329,8 @@ body {
 
 /* ================= FOOTER ================= */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
