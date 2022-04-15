@@ -46,7 +46,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 1px solid red;
+  /* outline: 1px solid red;*/
 }
 /* ================= COMPONENTS ================= */
 .section {
@@ -142,7 +142,8 @@ img {
 }
 /* Список в портфоліо під карточками */
 .employees-list-position-div {
-  margin-bottom: 20px;
+  width: 322px;
+
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -383,10 +384,22 @@ img {
   color: var(--one-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .portfolio-list {
   background: var(--one-color);
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 
 .portfolio-list {
@@ -400,8 +413,6 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-
-  border: 1px solid #ececec;
 }
 
 .employees-list-ptojekt:nth-child(3n) {
@@ -412,11 +423,15 @@ img {
   margin-bottom: 0;
 }
 
-.employees-list-img {
-  margin-bottom: 20px;
+.div-list-work {
+  padding: 20px 24px;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
 }
 
 .employees-list-name-portfolio {
+  width: 322px;
   margin-bottom: 4px;
 
   font-weight: 700;
