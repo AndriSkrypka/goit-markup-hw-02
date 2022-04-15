@@ -107,6 +107,8 @@ img {
 }
 
 .div-list-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -118,7 +120,8 @@ img {
 }
 
 .employees-list-name {
-  margin-bottom: 10px;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 .employees-list-name {
@@ -131,7 +134,7 @@ img {
 }
 
 .employees-list-position {
-  margin-bottom: 30px;
+  margin: auto;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -162,12 +165,15 @@ img {
   display: flex;
 }
 
-.header-nav {
+.logo,
+.menu {
   align-items: center;
   display: flex;
 }
 
 .logo {
+  margin-right: 93px;
+
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -186,24 +192,8 @@ img {
   color: #000000;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-  margin: auto;
-}
-.menu .menu-item {
-  outline: 1px solid red;
+.menu-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.menu .menu-item:last-child {
-  margin-right: 0;
-}
-
-.menu-item .menu-link {
-  display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
 }
 
 .menu-link {
@@ -223,13 +213,18 @@ img {
   color: var(--accent-color);
 }
 
-.header-contect {
+.header-nav {
   display: flex;
-  align-items: center;
-  margin: auto;
 }
 
-.header-contec .contect-list {
+.header-contect {
+  align-items: center;
+  margin-left: auto;
+  display: flex;
+}
+
+.contect-list:not(:first-child) {
+  margin-left: 50px;
 }
 
 .header-mail {
@@ -261,6 +256,7 @@ img {
 /* ================= /HEADER ================= */
 
 /* ================= HERO ================= */
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -268,9 +264,25 @@ img {
   background: #2f303a;
 }
 
+.feature-list {
+  display: flex;
+  align-items: center;
+}
+.feature-subheadings {
+  margin-right: 30px;
+  flex-basis: calc((100%-30px) / 4);
+}
+
+.what-we-do {
+  display: flex;
+  margin-right: -30px;
+}
+
 .what-we-do-list {
+  margin-right: 30px;
   width: 370px;
 }
+
 .section-title-list-features {
   margin-bottom: 50px;
   display: none;
@@ -317,6 +329,15 @@ img {
 .modal-btn:hover,
 .menu-btn:focus {
   background-color: #188ce8;
+}
+
+.employees-list {
+  display: flex;
+  margin-right: -30px;
+}
+
+.employees-list-item {
+  margin-right: 30px;
 }
 
 /* ================= /HERO ================= */
@@ -367,6 +388,11 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
+}
+
+.div-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {
